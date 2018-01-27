@@ -12,7 +12,7 @@ class App extends Component {
       <Provider store={store}>
         <BrowserRouter>
           <div>
-            <Navbar />
+            <Route path="/" component={Navbar} />
             <Route path="/auth" component={Auth} />
           </div>
         </BrowserRouter>

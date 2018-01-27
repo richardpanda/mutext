@@ -1,0 +1,20 @@
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar__brand {
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__brand-logo,
+.navbar__brand-name {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
